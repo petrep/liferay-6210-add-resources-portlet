@@ -26,7 +26,7 @@ public class AddResources extends GenericPortlet {
             ActionRequest actionRequest, ActionResponse actionResponse)
         throws IOException, PortletException {
 
-        super.processAction(actionRequest, actionResponse);
+    	System.out.println("Testing starts..");
     }
 
     public void doView(
